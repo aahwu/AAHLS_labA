@@ -1,0 +1,157 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution5\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "matrixmul"
+              }]
+          }
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution5\/directives.tcl",
+          "sourceLine": "7",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "ap_fifo",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "a"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution5\/directives.tcl",
+          "sourceLine": "8",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "ap_fifo",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "b"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "Col",
+          "functionLabel": "",
+          "id": "4",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution5\/directives.tcl",
+          "sourceLine": "9",
+          "pragma": {"name": "PIPELINE"}
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "5",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution5\/directives.tcl",
+          "sourceLine": "10",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "a"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "2"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "6",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution5\/directives.tcl",
+          "sourceLine": "11",
+          "pragma": {
+            "name": "ARRAY_PARTITION",
+            "option": [
+              {
+                "name": "variable",
+                "value": "b"
+              },
+              {
+                "name": "complete",
+                "value": ""
+              },
+              {
+                "name": "dim",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "7",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution5\/directives.tcl",
+          "sourceLine": "12",
+          "pragma": {
+            "name": "INTERFACE",
+            "option": [
+              {
+                "name": "ap_fifo",
+                "value": ""
+              },
+              {
+                "name": "port",
+                "value": "res"
+              }
+            ]
+          }
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "8",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution5\/csynth.tcl",
+          "sourceLine": "15",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "matrixmul"
+              }]
+          }
+        }
+      ]
+    }]}

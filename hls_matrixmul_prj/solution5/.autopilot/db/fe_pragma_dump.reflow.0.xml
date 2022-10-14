@@ -1,0 +1,8 @@
+<pragmas>
+<pragma file="../110061901_lab_a/Design_Optimization_Source_Code/lab1/matrixmul.cpp" line="9" pragmaType="pipeline" parentfunction="matrixmul" off="0" ii="-1" rewind="0" style=""/>
+<pragma file="../110061901_lab_a/Design_Optimization_Source_Code/lab1/matrixmul.cpp" line="10" pragmaType="array_partition" parentfunction="matrixmul" dim="2" factor="0" mode="complete" dynamic="0" variable="a"/>
+<pragma file="../110061901_lab_a/Design_Optimization_Source_Code/lab1/matrixmul.cpp" line="11" pragmaType="array_partition" parentfunction="matrixmul" dim="1" factor="0" mode="complete" dynamic="0" variable="b"/>
+<pragma file="../110061901_lab_a/Design_Optimization_Source_Code/lab1/matrixmul.cpp" line="12" pragmaType="interface" parentfunction="matrixmul" mode="ap_fifo" port="res" register="0" name="" depth="-1"/>
+<pragma file="../110061901_lab_a/Design_Optimization_Source_Code/lab1/matrixmul.cpp" line="7" pragmaType="interface" parentfunction="matrixmul" mode="ap_fifo" port="a" register="0" name="" depth="-1"/>
+<pragma file="../110061901_lab_a/Design_Optimization_Source_Code/lab1/matrixmul.cpp" line="8" pragmaType="interface" parentfunction="matrixmul" mode="ap_fifo" port="b" register="0" name="" depth="-1"/>
+</pragmas>

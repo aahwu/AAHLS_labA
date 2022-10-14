@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Oct 13 01:39:31 2022
+# Process ID: 10264
+# Current directory: C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labA/hls_matrixmul_prj/solution6/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/matrixmul/xsim_script.tcl}
+# Log file: C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labA/hls_matrixmul_prj/solution6/sim/verilog/xsim.log
+# Journal file: C:/Users/ShaneWu/OneDrive/Desktop/Documents/NTU/HLS/labA/hls_matrixmul_prj/solution6/sim/verilog\xsim.jou
+# Running On: LAPTOP-R2GBPVNV, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16539 MB
+#-----------------------------------------------------------
+source xsim.dir/matrixmul/xsim_script.tcl
+open_wave_config matrixmul_dataflow_ana.wcfg
+source matrixmul.tcl

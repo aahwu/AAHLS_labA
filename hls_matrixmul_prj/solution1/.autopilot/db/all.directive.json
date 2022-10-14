@@ -1,0 +1,50 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "matrixmul"
+              }]
+          }
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "Product",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution1\/directives.tcl",
+          "sourceLine": "7",
+          "pragma": {
+            "name": "PIPELINE",
+            "option": [{
+                "name": "off",
+                "value": ""
+              }]
+          }
+        },
+        {
+          "functionName": "matrixmul",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "C:\/Users\/ShaneWu\/OneDrive\/Desktop\/Documents\/NTU\/HLS\/labA\/hls_matrixmul_prj\/solution1\/csynth.tcl",
+          "sourceLine": "15",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "matrixmul"
+              }]
+          }
+        }
+      ]
+    }]}
